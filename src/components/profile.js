@@ -5,6 +5,12 @@ import { connect } from 'react-redux';
 
 import { detectImage } from '../actions';
 
+/**
+ * Profile component which displays button to choose file,
+ * upload button to make API request to kairos face-detection API,
+ * profile picture, Logout button, and details like age,gender,ethinicity etc
+ * about the person in image
+ */
 class Profile extends Component {
 
     constructor(props) {
@@ -80,16 +86,10 @@ class Profile extends Component {
         let ethnicity = Object.keys(ethnicityObj).find(key => ethnicityObj[key] === ethnicityValue);
         ethnicity = ethnicity ? ethnicity.substring(0, 1).toUpperCase() + ethnicity.substring(1, ethnicity.length) : '';
 
-        const style = {
-            marginTop: '75px',
-            marginLeft: '25%',
-            width: '50%',
-            height: '490px',
-            border: '1px solid grey'
-        }
         return (
             <div>
-                <div style={style}>
+                <h1 style={{ marginTop: "20px" }}>Profily App</h1>
+                <div className="loginDiv">
                     <div className="col-sm-12" style={{ float: "left", position: "inline-block" }}>
                         <img id="profile_pic"
                             src=""

@@ -5,7 +5,6 @@ export default function (state = {}, action) {
         case LOGIN_SUCCESS:
             return action.payload.data;
         case GET_USER_INFO:
-            console.log('User Info in reducer', action.payload.images[0].faces[0]);
             if (!action.error)
                 return action.payload.images[0].faces[0];
             break;
