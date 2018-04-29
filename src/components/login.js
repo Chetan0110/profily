@@ -57,31 +57,30 @@ class Login extends Component {
                 <h1 style={{ marginTop: "20px" }}>Profily App</h1>
                 <div className="loginDiv">
                     <form style={{ marginTop: "100px" }}>
-                        <div>
-                            <label>User Name</label>
+                        <div className="form-group">
+                            <label for="user_name">User Name</label>
                             <input
                                 id="user_name"
                                 type="text"
                                 className="form-control"
-                                autoFocus="true"
-                                tabIndex={1}
+                                placeholder="Enter Username"
                                 onChange={this.onInputChange}
                             />
                         </div>
-                        <div style={{ marginTop: "20px" }}>
-                            <label>Password</label>
+                        <div className="form-group" style={{ marginTop: "20px" }}>
+                            <label for="password">Password</label>
                             <input
                                 id="password"
                                 type="password"
                                 className="form-control"
-                                tabIndex={2}
+                                placeholder="Enter Password"
+                                onChange={this.onInputChange}
                             />
                         </div>
                         <button
                             type="button"
                             className='btn btn-success'
                             style={{ marginTop: "20px", marginLeft: "45%" }}
-                            tabIndex={3}
                             onClick={this.onLoginClick}
                         >
                             <Link
