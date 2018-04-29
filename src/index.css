@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.loginDiv {
+  margin-left: 25%;
+  width: 50%;
+  height: 490px;
+  border: 1px solid grey;
+}
