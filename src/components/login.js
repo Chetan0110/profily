@@ -58,7 +58,7 @@ class Login extends Component {
                 <div className="loginDiv">
                     <form style={{ marginTop: "100px" }}>
                         <div className="form-group">
-                            <label for="user_name">User Name</label>
+                            <label htmlFor="user_name">User Name</label>
                             <input
                                 id="user_name"
                                 type="text"
@@ -68,7 +68,7 @@ class Login extends Component {
                             />
                         </div>
                         <div className="form-group" style={{ marginTop: "20px" }}>
-                            <label for="password">Password</label>
+                            <label htmlFor="password">Password</label>
                             <input
                                 id="password"
                                 type="password"
