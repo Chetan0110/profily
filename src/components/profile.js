@@ -104,6 +104,7 @@ class Profile extends Component {
                         />
                         <input
                             type="file"
+                            accept="image/*"
                             className="btn btn-primary col-sm-8"
                             onChange={this.fileChangedHandler}
                             style={{
