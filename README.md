@@ -2,7 +2,7 @@
 * User can login in the app with any random user name and password because authentication has been done through one **Basic Hash String** internally which always authenticates 
 * After login, user requires to upload image by clicking on choose file button and then hit **Upload!** button
 * After little processing, details like age, gender, ethnicity etc. will be displayed on the screen based on uploaded image
-* For face-detection [kairos](https://kairos.docs.apiary.io/#reference/face-recognition/detect) API have been used
+* For face-detection [kairos](https://kairos.docs.apiary.io/#reference/face-recognition/detect) API has been used
 
 ## Getting Started
 
@@ -25,7 +25,7 @@
 * Rest of them come while creating app
 
 ### Installing
-* Third point under **Getting stated** will install all the required packges
+* Third point under **Getting started** will install all the required packages
 
 ## Usage
 
